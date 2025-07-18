@@ -1,0 +1,59 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+.judulbuah {
+    background-color: chartreuse;
+    font-size: 35px;
+    padding: 30px 20px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;   
+}
+.ikontol {
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.meki {
+    background-color: blue;
+    width: 100%;
+    height: 80px;
+    margin-top: 0;
+}
+.jojo {
+
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.jawa {
+    border: 3px solid rgb(221, 255, 0);
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 53px;
+    color:wheat;
+    background-position: 10%;
+}
+
+.jaja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+    gap: 10px;
+
+}
+.fotomember {
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+    object-fit: cover;
+}
