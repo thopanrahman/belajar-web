@@ -1,0 +1,15 @@
+<!DOCTYPEhtml>
+
+<html lang="en">
+       
+        <head>
+
+               <title>Belajar Bikin Html</title>
+
+        <head>
+ 
+        <body>
+           
+              <p>Halo Dunia!</p>
+        <body>
+</html>
