@@ -20,7 +20,6 @@ html {
     display: flex;
     justify-content: center;  
     color: white; 
-    display: flex;
 }
 .ikontol {
     position: absolute;
@@ -31,8 +30,6 @@ html {
     object-fit: contain;
     
 }
-
-
 .meki {
     background-color: rgb(67, 2, 2);
     width: 100%;
@@ -71,54 +68,64 @@ html {
 .jaja {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 10px ;
     gap: 10px 19px;
+    margin-left: 150px;
+    flex-direction: row;
 
 }
 .fotomember {
-    width: 170px;
-    height: 180px;
+    width: 300px;
+    height: 300px;
     border-radius: 0px;
     object-fit: cover;
     gap: 10px;
     margin-top: 15px;
     border: 3px solid black;
+    
 }
 
-.hamburger {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    margin-left: auto;
-  }
-
 .jaja-pop {
+    display: flex;
     flex-direction: column;
     list-style: none;
     background-color: grey;
     border: 5px solid gold ;
     border-radius: 5%;
-    width: 180px;          /* Ukuran lebar tetap */
+    width: 305px;          /* Ukuran lebar tetap */
     min-height: 350px;     /* Tinggi minimum agar rata */
+
+}
+.jaja-pap{
     display: flex;
-    justify-content: flex-start;
-    padding-bottom: 10px;
-    margin: 8px;
+    flex-direction: column;
+    width: 300px;
 }
 
-.jaja-pop p{
+.jaja-pap p{
   background-color: white;
   border: 2px solid black;
   border-radius: 0%;
   padding: 5px;
   margin: 6px 5px;
   color: black;
-  
+}
+.juju {
+    list-style: none;
+    list-style-type: none;
+    background-color: grey;
+    border: 5px solid gold ;
+    border-radius: 10%;
+    flex: 1;
+    font-size: 30px;
+    line-height: 1.5;
+    color: black;
+    margin-left: 50px;
+}
+.juju p {
+    margin: 30px;
 }
 
 @media (max-width:768px) {
@@ -131,8 +138,8 @@ html {
         display: flex;
         gap: 10px;
         justify-content: center;
-        display: flex;
     }
+
     .ikontol{
         width: 60px;
         height: 60px;
@@ -157,5 +164,39 @@ html {
         padding: 15px 30px;
         margin-top: 12px;
     }
-  
+    .jaja{
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .jaja-pop{
+        width: 305px;          /* Ukuran lebar tetap */
+        min-height: 350px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .fotomember {
+        height: auto;
+        margin-top: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .jaja-pap p{
+        font-size: 18px;
+        text-align: flex-start;
+    }
+    .juju {
+    width: 90%;
+    margin-left:0;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 18px;
+    }
+    .juju p {
+        margin: 5px;
+        text-align: center;
+    }
+    
 }
